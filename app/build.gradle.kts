@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.bluviontech.autoanswerivr"
+    namespace = "com.example.autoanswerapp"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.bluviontech.autoanswerivr"
+        applicationId = "com.example.autoanswerapp"
         minSdk = 26
         targetSdk = 34
         versionCode = 1
@@ -18,10 +18,6 @@ android {
     buildTypes {
         release {
             isMinifyEnabled = false
-            proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
-            )
         }
     }
 
@@ -38,7 +34,4 @@ android {
 dependencies {
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
-    implementation("com.google.android.material:material:1.11.0")
-    implementation("androidx.activity:activity-ktx:1.8.2")
-    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
 }
