@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "com.bluviontech.autoanswerivr"
-        minSdk = 26
+        minSdk = 28
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -35,4 +35,3 @@ dependencies {
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
 }
-
