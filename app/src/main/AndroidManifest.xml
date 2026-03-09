@@ -9,7 +9,7 @@
         android:allowBackup="true"
         android:label="Auto Answer App"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        android:theme="@style/Theme.AutoAnswerSpeakerIVR">
 
         <activity
             android:name=".MainActivity"
