@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.autoanswerapp"
+    namespace = "com.bluviontech.autoanswerivr"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.autoanswerapp"
+        applicationId = "com.bluviontech.autoanswerivr"
         minSdk = 26
         targetSdk = 34
         versionCode = 1
@@ -35,3 +35,4 @@ dependencies {
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
 }
+
